@@ -1,0 +1,48 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	margin: 0;
+    background: linear-gradient(90deg, #EA2D27 50%, #69110D 50%);
+}
+
+h1 {
+	text-align: center;
+	mix-blend-mode: color-burn;
+	color: #68120F;
+	font-size: 100px;
+}
+
+.grid {
+	height: 100%;
+	width: 100%;
+	display: grid; 
+	grid-template-columns: repeat(2, 1fr) ; 
+}
+
+p {
+	color: #c40000;
+	font-size: 40px;
+	text-align: center;
+}
+
+p.lightRed {
+	color: #68120F;
+}
+
+p#strat {
+	color: #68120F;
+	text-align: center;
+	font-size: 100px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p#tech {
+	color: #c40000;
+	/*mix-blend-mode: color-burn;*/
+	text-align: center;
+	font-size: 100px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
